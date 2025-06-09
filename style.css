@@ -5,7 +5,7 @@
 }
 
 .top-header{
-background-image:url(./top-bar.jpg);
+background-image:url(./assets/top-bar.jpg);
 display:flex;
 justify-content:space-between;
 padding:10px 100px;
@@ -101,6 +101,7 @@ padding:10px 100px;
 .img-line{
 	
 	margin-left:75px;
+	margin-top:20px;
 }
 .slider-imgs2{
 	display:flex;
@@ -108,8 +109,82 @@ padding:10px 100px;
 	gap:20px;
 	justify-content:center;
 	background-color:lightyellow;
+	
 }
 .slider-img2-1{
 	width:400px;
 	border-radius:10px;
+	
+}
+.slider-imgs2-top{
+	width:100%;
+	
+}
+.animation-line-1{
+	width:100%;
+}
+.offers-cards-box{
+	display:flex;
+	flex-wrap:wrap;
+	gap:18px;
+	justify-content:center;
+}
+.offers-card{
+	border-radius:10px;
+	width:250px;
+}
+.lakme-headline{
+	background-color:#fff8f9;
+		display:flex;
+		flex-direction:column;
+	
+}
+.lakme-head{
+	width:100%;
+	margin-top:50px;
+}
+.lakme-imgs{
+	display:flex;
+	gap:30px;
+}
+.nykaa-luxe-img{
+	width:30%;
+	border-radius:10px;
+}
+.nykaa-luxe-head{
+	width:100%;
+	
+}
+.luxe-img{
+	display:flex;
+	gap:20px;
+	justify-content:center;
+}
+.nykaa-luxe{
+	display:flex;
+	flex-direction:column;
+	margin-top:15px;
+}
+.deals{
+	padding:20px 30px;
+	border-bottom:3px solid lightgray;
+	width:95%;
+	margin-left:50px;
+}
+.double-lines{
+	display:flex;
+	padding:40px 60px;
+	gap:20px;
+}
+.double-lines-1{
+	border-radius:10px;
+}
+.blur-img{
+	width:15%;
+}
+.blur-card{
+	display:flex;
+	flex-wrap:wrap;
+	gap:10px;
+	justify-content:center;
 }
