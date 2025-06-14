@@ -301,3 +301,22 @@ padding:10px 100px;
 		display:none;
 	}
 }
+
+.top-footer{
+	display:flex;
+	gap:80px;
+	justify-content:center;
+}
+.google-play{
+	width:120px;
+}
+#search-input-footer{
+	background-color:white;
+
+    border:none;
+	padding:15px;	
+	
+}
+.btnfooter{
+	width:80px;
+}
