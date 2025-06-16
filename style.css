@@ -9,6 +9,7 @@
               flex-direction: column;
               padding-top:10px;
               border-bottom: 2px solid lightpink;
+			 
           }
 		  
 		  .phnimg{
@@ -19,29 +20,34 @@
           .phnhead{
               display:flex;
               gap: 20px;
-              margin-left: 30px;
+              margin:5px;
+			  justify-content:center;
           }
          .phnbag{
-             margin-left: 170px;
+             margin-left: 150px;
 			 padding-top:10px;
          }
           #search-input-phn{
               width:330px;
               height: 30px;
               border-radius: 20px;
-              background-color: lightgray;
-              color: gray;
+			   background-image:url(./assets/top-bar.jpg);
               padding: 20px;
-              border: none;
+              border:none;
               box-shadow:3px 3px 3px lightgray;
           }
-
+           
+		    #search-input-phn::placeholder{
+				color:black;
+			}
+		   
           .search-form-phn{
          padding : 15px 20px;
+		 text-align:center;
              
           }
           .phn1{
-              width:370px;
+              width:100vw;
               padding:10px 0;
           }
           .phnpro{
@@ -152,13 +158,14 @@ padding:10px 100px;
 	
 }
 .slider-img1{
-	width:400px;
+	padding:10px;
+	width:32%;
 	border-radius:10px;
 }
 .img-line{
-	
-	margin-left:75px;
-	margin-top:20px;
+	width:100vw;
+	padding:20px 40px;
+
 }
 .slider-imgs2{
 	display:flex;
@@ -209,7 +216,7 @@ padding:10px 100px;
 	border-radius:10px;
 }
 .nykaa-luxe-head{
-	width:100%;
+	width:100vw;
 	
 }
 .luxe-img{
@@ -268,7 +275,7 @@ padding:10px 100px;
 
 }
 .show{
-	width:95wv;
+	width:95vw;
 	text-align:center;
 	 display: block;
   margin: auto;
@@ -293,6 +300,51 @@ padding:10px 100px;
 	.desktop{
 		display:none;
 	}
+	
+	
+	.lakme-imgs{
+	flex-direction:column;
+	padding:10px 20px;
+	align-items:center;
+}
+.lakme-card{
+	width:50%;
+}
+
+   .luxe-img{
+	flex-direction:column;
+	align-items:center;
+}
+.get-deal{
+	display:none;
+}
+.bbf-cards{
+	flex-direction:column;
+	align-items:center;
+}	
+.bbf-card-img{
+	width:70%;
+}
+
+.nykaa-luxe-img{
+	width:70%;
+
+}
+
+.top-footer{
+	flex-direction:column;
+	gap:none;
+}
+.slider-img1{
+	width:90vw;
+}
+
+.slider-img2-1{
+	width:90vw;
+}
+.show{
+	display:none;
+}
 }
 
 @media screen and (min-width:481px){
@@ -306,17 +358,40 @@ padding:10px 100px;
 	display:flex;
 	gap:80px;
 	justify-content:center;
+	background-color:#1c2e4a;
 }
 .google-play{
 	width:120px;
 }
 #search-input-footer{
-	background-color:white;
-
-    border:none;
+	background-color:#1c2e4a;
+     border-bottom: 1px solid white;
 	padding:15px;	
-	
+	color:white;
 }
 .btnfooter{
 	width:80px;
+	border-radius:10px;
+	padding:5px;
+}
+
+.top-footer1{
+	color:white;
+	padding:30px;
+}
+#search-input-footer{
+	padding:1px;
+}
+.footform{
+	padding:10px;
+}
+
+#search-input-footer::placeholder{
+	color:white;
+}
+
+
+
+.google-play{
+	padding:20px 10px;
 }
